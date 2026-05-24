@@ -26,7 +26,7 @@ public class GestorContraseñas {
             fw.write(servicio + ":" + cifrar(contraseña) + "\n");
             System.out.println("Contraseña guardada para " + servicio);
         } catch (IOException e) {
-            System.out.println("Error al guardar: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
